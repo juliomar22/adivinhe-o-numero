@@ -40,7 +40,7 @@ function compareNumbers() {
            }
     }
     else {
-        document.getElementById('textOutput').innerHTML = 'You Lose! The computer number was ' + computerNumber
+        document.getElementById('textOutput').innerHTML = 'Você perdeu! O número do computador era ' + computerNumber
         document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
     }
 
